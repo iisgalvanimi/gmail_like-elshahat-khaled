@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'email-elshahat';
+  sendMail(a:HTMLInputElement, ogg:HTMLInputElement, txt:HTMLInputElement ){
+    console.log(a.value);
+  }
 }
